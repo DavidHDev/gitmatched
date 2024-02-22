@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/matches" element={<Matches />} />
       </Routes>
       <footer className='footer'>
-        <a href="https://google.com/" target='_blank'>
+        <a href="https://github.com/DavidHDev/gitmatched" target='_blank'>
           <i className='fa fa-code'></i>
           View On Github
         </a>
