@@ -1,0 +1,94 @@
+.swipe-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .swipe-card {
+    position: relative;
+
+    .card-loader {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .card-details {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .card-img {
+        border-radius: 10px;
+        margin: 0;
+      }
+
+      .card-user {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        gap: 0.5em;
+
+        .avatar {
+          background-color: #fff;
+          border: 5px solid #fff;
+        }
+      }
+    }
+  }
+
+  .action-buttons {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    #like-button,
+    #nope-button {
+      border-radius: 50px;
+      width: 4rem;
+      height: 4rem;
+      font-size: 2rem;
+      padding: 0;
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+        background-color: #fff;
+        transition: 0.3s ease;
+      }
+
+      &:active {
+        transform: scale(0.9);
+        transition: 0.1s ease;
+      }
+    }
+
+    #like-button {
+      border: 1px solid rgb(237, 103, 103);
+      color: rgb(237, 103, 103);
+    }
+
+    #nope-button {
+      border: 1px solid rgb(101, 233, 101);
+      color: rgb(101, 233, 101);
+    }
+  }
+
+  .swipe-icon {
+    font-size: 5em;
+    text-shadow: 0 5px 15px rgba(17, 17, 17, 0.25);
+  }
+
+  .heart {
+    color: rgb(101, 233, 101);
+  }
+
+  .nope {
+    color: rgb(237, 103, 103);
+  }
+}
