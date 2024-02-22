@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body {
@@ -31,8 +32,9 @@ main {
 footer {
   position: absolute;
   opacity: 0.5;
-  bottom: 2em;
-  left: 4em;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
 
   a {
     text-decoration: none;
@@ -40,6 +42,6 @@ footer {
   }
 
   i {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
 }

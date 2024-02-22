@@ -92,3 +92,12 @@
     color: rgb(237, 103, 103);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .swipe-card-container {  
+    .swipe-card {
+      position: relative;
+      width: 350px !important;
+    }
+  }
+}
