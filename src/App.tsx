@@ -16,7 +16,7 @@ export default function App() {
       <footer className='footer'>
         <a href="https://github.com/DavidHDev/gitmatched" target='_blank'>
           <i className='fa fa-code'></i>
-          View On Github
+          View Source Code
         </a>
       </footer>
     </main>

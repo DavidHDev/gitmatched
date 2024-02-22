@@ -25,16 +25,14 @@ main {
   min-width: 100%;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 footer {
-  position: absolute;
   opacity: 0.5;
-  bottom: 1em;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 8em;
 
   a {
     text-decoration: none;
